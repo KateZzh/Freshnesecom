@@ -44,14 +44,17 @@ header .search div {
   background: #f9f9f9;
   border: 1px solid #d1d1d1;
   border-radius: 12px 0 0 12px;
-  padding: 10px 48px 10px 16px;
+  padding: 10px 48px 9px 16px;
   position: relative;
   left: 1px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
 }
 
 header .search input {
   width: 330px;
-  padding: 11px 0 11px 24px;
+  padding: 11px 0 10px 24px;
   background: #f9f9f9;
   border: 1px solid #d1d1d1;
   border-radius: 0 12px 12px 0;
@@ -81,6 +84,7 @@ header .nav-imgs .img-man {
   background-size: contain;
   width: 21px;
   height: 20px;
+  margin-right: 45px;
 }
 
 header .nav-imgs .img-bag {
